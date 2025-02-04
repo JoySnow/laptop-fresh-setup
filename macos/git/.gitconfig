@@ -1,0 +1,26 @@
+[user]
+	name = <name>
+    email = <email>
+[http]
+	sslverify = false
+[alias]
+    s = status
+    sh = ss
+    c = commit
+    a = add
+    ch = checkout
+    l = log
+    b = branch
+    cma = commit --amend --no-edit
+    df = diff
+[pull]
+	rebase = false
+[status]
+    short = true
+[init]
+	templateDir = /Users/joy/.git-template
+[rh-pre-commit]
+	enableLocalConfig = true
+	checkSecrets = true
+[rh-pre-commit "commit-msg"]
+	signOff = false
